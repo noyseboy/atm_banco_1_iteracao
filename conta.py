@@ -66,7 +66,7 @@ class Administrador:
             nome = input("Digite o nome do cliente: ").strip()
             if nome.replace(" ", "").isalpha():
                 break
-            print("Por favor, insira um nome válido (apenas letras e espaços).")
+            print("Por favor, insira um nome válido (apenas letras).")
 
         # Valide e obtenha o CPF
         while True:
